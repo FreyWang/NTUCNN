@@ -72,6 +72,7 @@ class HCN(nn.Module):
         return z
 
 if  __name__ == '__main__':
+    pass
     x1 = Variable(torch.from_numpy(np.random.rand(2,3,32,25)).float())
     x2 = Variable(torch.from_numpy(np.random.rand(2,3,31,25)).float())
     x = [x1, x2]
